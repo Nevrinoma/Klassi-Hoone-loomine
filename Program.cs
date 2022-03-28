@@ -15,8 +15,9 @@ namespace Klassi_Hoone_loomine
             majake.uks = new Uks("must");
             mees.hoone = majake;
             mees.NaitaInfo();
-            mees.NaitaSaleInfo();
-
+            KorteriteMaja maja = new KorteriteMaja();
+            maja.NumberOfRooms(int 4);
+            maja.NaitaSaleInfo();
 
 
 

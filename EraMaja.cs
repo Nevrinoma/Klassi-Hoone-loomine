@@ -10,17 +10,17 @@ namespace Klassi_Hoone_loomine
     {
         string staatus;
         int pind;
-        public EraMaja(int pindala = 50) : base(pindala)
+        public EraMaja(int pindala) : base(pindala)
         {
 
         }
 
-        public Aknad(int numberofrooms = 3) : base(numberofrooms)
+        public Aknad(int numberofrooms) : base(numberofrooms)
         {
             aknad = numberofrooms * 3;
         }
 
-        public salePrice(int price = 76000):base(price)
+        public salePrice(int price):base(price)
         {
             SalePrice = price * 0.8;
         }

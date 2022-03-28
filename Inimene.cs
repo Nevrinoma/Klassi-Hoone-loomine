@@ -23,6 +23,8 @@ namespace Klassi_Hoone_loomine
             hoone.NaitaInfo();
             Console.WriteLine("Ukse info:");
             hoone.GetUks().NaitaInfo();
+            Console.WriteLine("KorteriteMaja info:");
+            KorteriteMaja.NaitaInfo();
         }
     }
 

@@ -22,6 +22,11 @@ namespace Klassi_Hoone_loomine
             NumberOfRooms = numberofrooms;
             NumberOfFlors = numberofflors;
         }
+        public Hone(int aknad,int salePrice)
+        {
+        Aknad = aknad;
+        salePrice = SalePrice;
+        }
         
         public void NaitaInfo()
         {

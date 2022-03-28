@@ -8,9 +8,14 @@ namespace Klassi_Hoone_loomine
 {
     public class KorteriteMaja : Hoone
     {
-        public KorteriteMaja(int numberofflors = 5) : base(numberofflors)
+        public KorteriteMaja(int numberofflors) : base(numberofflors)
         {
-            Console.WriteLine($"Mul on {numberofflors}");
+            void NaitaInfo()
+            {
+                Console.WriteLine($"Mul on {numberofflors}");
+
+            }
+            
         }
     }
 }
