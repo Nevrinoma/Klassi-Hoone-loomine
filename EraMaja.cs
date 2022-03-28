@@ -15,6 +15,16 @@ namespace Klassi_Hoone_loomine
 
         }
 
+        public Aknad(int numberofrooms = 3) : base(numberofrooms)
+        {
+            aknad = numberofrooms * 3;
+        }
+
+        public salePrice(int price = 76000):base(price)
+        {
+            SalePrice = price * 0.8;
+        }
+
         public int Suurus
         {
             set
